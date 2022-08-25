@@ -1,0 +1,20 @@
+.nav {
+	position: sticky;
+    margin: 0 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+  
+}
+
+.nav-text {
+    text-decoration: none;
+}
+
+.subnav {
+	position: sticky;
+	bottom: 0;
+	top: 60px; /* prevent covering main nav */
+}
